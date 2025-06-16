@@ -22,7 +22,7 @@ export function analyzeStats(jobs) {
   pattern("Job name length > 5", j => j.name.length > 5);
   pattern("Job name contains 0", j => /0/.test(j.name));
   pattern("Argument count >= 2", j => j.args.length >= 2);
-  pattern("Duration < 20 sec", j => j.duration < 20);
+  pattern("Duration < 3 sec", j => j.duration < 3);
 
   return {
     totalJobs: total,

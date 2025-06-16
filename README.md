@@ -64,26 +64,26 @@ Stats:
     {
       "pattern": "Job name length > 5",
       "matchCount": 90,
-      "successRate": 0.73,
-      "differenceFromAverage": "0%"
+      "successRate": 0.77,
+      "differenceFromAverage": "-0%"
     },
     {
       "pattern": "Job name contains 0",
       "matchCount": 10,
-      "successRate": 0.7,
-      "differenceFromAverage": "-3%"
+      "successRate": 0.6,
+      "differenceFromAverage": "-17%"
     },
     {
       "pattern": "Argument count >= 2",
       "matchCount": 100,
-      "successRate": 0.73,
+      "successRate": 0.77,
       "differenceFromAverage": "0%"
     },
     {
-      "pattern": "Duration < 20 sec",
-      "matchCount": 100,
-      "successRate": 0.73,
-      "differenceFromAverage": "0%"
+      "pattern": "Duration < 3 sec",
+      "matchCount": 53,
+      "successRate": 1,
+      "differenceFromAverage": "+23%"
     }
   ]
 }
@@ -127,14 +127,26 @@ Example Response:
     {
       "pattern": "Job name length > 5",
       "matchCount": 90,
-      "successRate": 0.73,
-      "differenceFromAverage": "0%"
+      "successRate": 0.77,
+      "differenceFromAverage": "-0%"
     },
     {
       "pattern": "Job name contains 0",
       "matchCount": 10,
-      "successRate": 0.7,
-      "differenceFromAverage": "-3%"
+      "successRate": 0.6,
+      "differenceFromAverage": "-17%"
+    },
+    {
+      "pattern": "Argument count >= 2",
+      "matchCount": 100,
+      "successRate": 0.77,
+      "differenceFromAverage": "0%"
+    },
+    {
+      "pattern": "Duration < 3 sec",
+      "matchCount": 53,
+      "successRate": 1,
+      "differenceFromAverage": "+23%"
     }
   ]
 }
