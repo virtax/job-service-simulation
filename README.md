@@ -18,8 +18,8 @@ A lightweight Node.js-based backend for launching, monitoring, and analyzing con
 ## Installation
 
 ```bash
-git clone https://github.com/your-org/job-service.git
-cd job-service
+git clone https://github.com/virtax/job-service-simulation
+cd job-service-simulation
 npm install
 ```
 
@@ -43,7 +43,7 @@ Periodically polls /jobs until all jobs have stopped
 Retrieves /stats to analyze job behavior
 
 Example Output:
-```
+```bash
 Creating 100 new jobs...
 
  Finished: 0/100
