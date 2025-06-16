@@ -151,3 +151,6 @@ Example Response:
   ]
 }
 ```
+
+# DELETE /jobs
+Clear the jobs store
